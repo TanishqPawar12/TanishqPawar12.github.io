@@ -95,20 +95,10 @@ const Header = () => {
                     </HStack>
                 </Link>
                 <HStack display={['none', 'flex', 'flex', 'flex']} gap={2}>
-                    <Button onClick={() => handleLikeAndDislike(isLiked)} variant={''} size={['xs', 'sm', 'sm', 'sm']} >
-                        <HStack alignItems={'center'} justifyContent={'center'}>
-                            <Box>
-                                {
-                                    isLiked ? <FcLike size={'18'} /> : <FcLikePlaceholder size={'18'} />
-                                }
-                            </Box>
-                            <Text>{likes}</Text>
-                        </HStack>
-                    </Button>
+                    
                     <Link to="mailto:pawartanishq786@gmail.com" target='_blank'><Button background='purple.100' color={'white'} size={['xs', 'sm', 'sm', 'sm']} _hover={{ backgroundColor: 'purple.200' }} gap={2}>Hire Me <TbBriefcaseFilled /></Button></Link>
                     <Text as={'a'} href={resume} type='image/pdf'><Button size={['xs', 'sm', 'sm', 'sm']} gap={1}>Resume <IoDocument /></Button></Text>
                 </HStack>
-
                 <HStack display={['flex', 'none', 'none', 'none']} gap={1}>
                     <Button onClick={() => handleLikeAndDislike(isLiked)} variant={''} size={['xs', 'sm', 'sm', 'sm']} >
                         <HStack right={4} position={'relative'} gap={1} alignItems={'center'} justifyContent={'center'}>
