@@ -24,7 +24,6 @@ const Footer = () => {
     <>
           <Stack direction={['column', 'row']} alignItems={'center'} justifyContent={'center'} py={[2,4]} color={'gray'} fontSize={['sm','sm']} bg={'#25282c'}>
               <Text>Tanishq Pawar © 2024-25</Text>
-              <Text>Unique Page Views: <span style={{color: 'whitesmoke'}}>{views}</span></Text>
       </Stack>
     </>
   )

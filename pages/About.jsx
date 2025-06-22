@@ -7,7 +7,7 @@ const About = () => {
     <>
       <TransitionWrapper>
         <VStack gap={4} fontSize={['smaller', 'sm']} alignItems={'flex-start'}>
-          <Text>Hey everyone 👋, I’m <span className="highlight">Tanishq Pawar</span>, a final year B.Tech. student (2021–25) from <span className="highlight">Acropolis Institute of Technology & Research, Indore</span>, pursuing Computer Science & Engineering.</Text>
+          <Text>Hey everyone 👋, I’m <span className="highlight">Tanishq Pawar</span>, a final year B.Tech. student (2022–25) from <span className="highlight">Acropolis Institute of Technology & Research, Indore</span>, pursuing Computer Science & Engineering.</Text>
 
           <Text>From being an ambivert kid who used to quietly observe the world around him to becoming someone who’s building real-world tech solutions — my journey has been all about <span className="highlight">growth through curiosity</span> and <span className="highlight">learning by doing</span>.</Text>
 
